@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+  .no-mobile {
+    display: none;
+  }
+}
+
+.only-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .only-mobile {
+    display: block;
+  }
+}
+
+.linkedin {
+  background: url('../img/LinkedIn_Logo.png') no-repeat;
+  padding-left: 20px;
+}
+
+.headshot {
+  border-radius: 150px;
+  height: 300px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.headshot-small {
+  border-radius: 100px;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.card-img-top {
+  display: block;
+  margin: 1rem auto 0;
+}
+
+.mit-logo {
+  height: 42px;
+  width: 184px;
+}
+
+.the-unassigned-logo {
+  height: 42px;
+  width: 42px;
+}
+
+.github-logo {
+  height: 42px;
+  width: 156px;
+}
