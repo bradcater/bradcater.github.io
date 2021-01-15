@@ -38,6 +38,10 @@
   margin: 1rem auto 0;
 }
 
+.card-text-primary {
+  font-weight: bold;
+}
+
 .mit-logo {
   height: 42px;
   width: 184px;
